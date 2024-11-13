@@ -1,0 +1,57 @@
+body{
+    font-family: "Noto Sans", sans-serif;
+    margin: 0px;
+    padding-top: 5px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+.btn-primary{
+    background-color: orangered;
+    border-radius: 5px;
+    width: 120px;
+    height: 50px;
+    border-style: none;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 2px;
+    /* filter: drop-shadow(8px 8px 10px  rgb(224, 4, 4)); */
+}
+.introdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.firstdiv{
+    width: 600px;
+    height: 400px;
+}
+/* .flexedsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+} */
+section footer div {
+    text-align: center;
+    margin: 5px;
+}
+section footer div h5{
+    margin-top: -2%;
+}
