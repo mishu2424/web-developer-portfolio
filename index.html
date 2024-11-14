@@ -10,35 +10,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header style="background-image: url('./images/developer.png'); background-repeat: no-repeat;">
-        <nav>
-            <h1 style="font-size: 45px;">Ma<span style="color: orangered;">r</span>y</h1>
-            <ul>
-                <li><a href="" style="filter: drop-shadow(8px 8px 10px rgb(5, 9, 26));">Portfolio</a></li>
-                <li><a href="" style="filter: drop-shadow(8px 8px 10px rgb(5, 9, 26));">Blog</a></li>
-                <li><button class="btn-primary">Hire Me</button></li>
-            </ul>
-        </nav>
-        <div class="introdiv" style="background-image: url('./images/header_bg.png'); background-repeat: no-repeat;background-size: cover;">
-            <div class="firstdiv">
-                <h3 style="font-size: 45px; font-weight: 400;">Hi, I am</h3>
-                <h1 style="font-size: 80px;">Mary Hardy</h1>
-                <p>Shot what able cold new see hold.Friendly as an betrayed formerly he.
-                   Morning because as to society behaved moments.</p>
-                <button class="btn-primary"><a href="" style="text-decoration: none; color: white;">Download CV</a></button>
-                <button class="btn-primary" style="background-color: white; border-style: solid; border-color: orangered;"><a href="" style="text-decoration: none; color: orangered;">Contact Me</a></button>
-            </div>
-            <div>
-                <img width="585px" height="700px" src="./images/hardy.png" alt="">
+    <header class="header">
+        <div style="background-image: url('./images/developer.png'); background-repeat: no-repeat; margin-left: 30px;">
+            <nav>
+                <h1 style="font-size: 45px;">Ma<span style="color: orangered;">r</span>y</h1>
+                <ul>
+                    <li><a href="" style="filter: drop-shadow(8px 8px 10px rgb(5, 9, 26));">Portfolio</a></li>
+                    <li><a href="" style="filter: drop-shadow(8px 8px 10px rgb(5, 9, 26));">Blog</a></li>
+                    <li><button class="btn-primary">Hire Me</button></li>
+                </ul>
+            </nav>
+            <div class="banner">
+                <div class="bannerdiv">
+                    <h3 style="font-size: 45px; font-weight: 400; margin-bottom: 0px; color: #474747;">Hi, I am</h3>
+                    <h1 style="font-size: 80px;margin-top: 2px; margin-bottom: 0px;">Mary Hardy</h1>
+                    <p style="margin-top: 7px;">Shot what able cold new see hold.Friendly as an betrayed formerly he.
+                       Morning because as to society behaved moments.</p>
+                    <button class="btn-primary"><a href="" style="text-decoration: none; color: white;">Download CV</a></button>
+                    <button class="btn-primary" style="background-color: white; border-style: solid; border-color: orangered;"><a href="" style="text-decoration: none; color: orangered;">Contact Me</a></button>
+                </div>
+                <div>
+                    <img width="585px" height="700px" src="./images/hardy.png" alt="">
+                </div>
             </div>
         </div>
     </header>
     <main>
-        <section class="flexedsection">
+        <!-- <section class="about">
             <div style="width: 1140px;height: 550px; display: flex; align-items: center; justify-content: center;">
                 <div style="width: 827px;height: 288px; text-align: center;">
-                    <h3 style="font-size: 35px;">About Me</h3>
-                    <p>I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional resulfs while working with me.
+                    <h3 class="section-title">About Me</h3>
+                    <p class="section-description">I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional resulfs while working with me.
                        Delivering work within time and budget which meets clients requirements in our mata.</p>
                     <footer style="display: flex; justify-content:center ;">
                          <div>
@@ -62,6 +64,36 @@
                 <div></div>
 
             </div>
+        </section> -->
+        <section class="about">
+            
+           <div class="about-description">
+                <h3 class="section-title">About Me</h3>
+                <p class="section-description">I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional results while working with me.
+                Delivering work within time and budget which meets clients requirements in our mata.</p>
+                <footer style="display: flex; justify-content:space-evenly ;">
+                    <div>
+                        <p>Name</p>
+                        <h5>Mary Hardy</h5>
+                    </div>
+                    <div>
+                        <p>Email</p>
+                        <h5>info@gmail.com</h5> 
+                    </div>
+                    <div>
+                        <p>Date of birth</p>
+                        <h5>11 November 1987</h5> 
+                    </div>
+                    <div>
+                        <p>From:</p>
+                        <h5>Los Angeles, USA</h5> 
+                    </div>
+                </footer>
+           </div>
+
+                <div></div>
+
+
         </section>
     </main>
     <footer></footer>

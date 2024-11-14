@@ -1,12 +1,21 @@
 body{
     font-family: "Noto Sans", sans-serif;
     margin: 0px;
-    padding-top: 5px;
+
+}
+/* header section styles */
+.header{
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'); 
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 836px;
+    padding-top: 3px;
 }
 nav{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 nav ul{
     display: flex;
@@ -33,21 +42,42 @@ nav li a {
     margin: 2px;
     /* filter: drop-shadow(8px 8px 10px  rgb(224, 4, 4)); */
 }
-.introdiv{
+.banner{
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.firstdiv{
+.banner > div{
+    padding-left: 20px;
+}
+.bannerdiv{
     width: 600px;
     height: 400px;
+    max-width: 500px;
 }
-/* .flexedsection{
-    display: flex;
+/* main section styles */
+.about{
+    /* display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center; */
+    padding: 130px;
     text-align: center;
-} */
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    margin: 130px 200px;
+    /* width: 1140px;height: 550px; */
+}
+.about-description{
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+.section-title{
+    font-size: 35px;
+}
+.section-description{
+    
+}
 section footer div {
     text-align: center;
     margin: 5px;
