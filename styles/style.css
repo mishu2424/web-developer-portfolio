@@ -176,22 +176,24 @@ section footer div h5{
 .footer input{
     color: #757575;
     display: block;
-    padding: 10px;
+    padding: 15px;
 }
 .edited-input{
     width: 300px;
     height: 30px;
     margin: 20px 0px;
     border-style: none;
+    border-radius: 10px;
 }
 .footer-section textarea{
     margin-bottom: 20px;
-    padding: 10px;
+    padding: 15px;
     max-width: 300px; 
     width: 300px;
     height: 100px;
     max-height: 100px;
     border-style: none;
+    border-radius: 10px;
 }
 /* .firstfootersection{
     
