@@ -9,7 +9,7 @@ body{
     background-image: url('../images/header_bg.png'); 
     background-repeat: no-repeat;
     background-position: bottom right;
-    height: 836px;
+    height: 835px;
     padding-top: 3px;
 }
 nav{
@@ -65,18 +65,20 @@ nav li a {
     text-align: center;
     border-radius: 10px;
     background-color: #FFF8F3;
-    margin: 130px 200px;
+    margin: 130px 200px 0px 200px;
     /* width: 1140px;height: 550px; */
 }
 .about-description{
     background-color: #FFFFFF;
     padding: 10px;
+    
 }
 .section-title{
     font-size: 35px;
+    text-align: center;
 }
 .section-description{
-    
+    color: #757575;
 }
 section footer div {
     text-align: center;
@@ -85,3 +87,66 @@ section footer div {
 section footer div h5{
     margin-top: -2%;
 }
+
+/* Skills section styles */
+.skills{
+    padding: 130px;
+    border-radius: 10px;
+    margin: 10px 100px;
+}
+.skills-description{
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+.skills-description >p{
+    text-align: center;
+}
+.card-section{
+    display: flex; 
+    justify-content:space-evenly ;
+    margin-top: 60px;
+}
+.card{
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    margin: 10px;
+    /* border: 1px solid; */
+    border-style: none;
+    box-shadow: 5px 5px 20px rgb(234, 234, 234);
+}
+
+.card img{
+    height: 44px;
+    width: 44px;
+}
+
+.card-header{
+    font-size: 20px;
+}
+
+/* resume section styles */
+.resume{
+    padding: 130px;
+    border-radius: 10px;
+    margin: -10% 100px;
+}
+.main-resume{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.resume-main-card{
+    padding-top: 20px;
+    /* margin: 30px; */
+}
+.resume-card{
+    width: 400px;
+    height: 200px;
+    border-bottom: 1px solid #D1D1D1;
+    margin: 20px;
+    padding: 20px;
+}
+/* .resume button{
+    justify-content: center;
+} */
